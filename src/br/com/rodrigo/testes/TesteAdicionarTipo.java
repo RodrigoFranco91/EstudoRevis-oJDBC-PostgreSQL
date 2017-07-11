@@ -9,7 +9,7 @@ public class TesteAdicionarTipo {
 		TipoLivroDao dao = new TipoLivroDao();
 		TipoLivro tipo = new TipoLivro();
 		
-		tipo.setNome("Romance");
+		tipo.setNome("Filosofia");
 		dao.adiciona(tipo);
 	}
 }
